@@ -10,17 +10,17 @@ font-size: 14px;
 font-weight: lighter;
 margin: 0 auto;
 padding-bottom:200px;
+
 }
 .container {
-  margin: 10px;
+  margin: 0 10px 10px 10px;
 }
 header{
   margin-top:0;
   text-align: center;
   border-bottom:3px solid black;
   padding-bottom: 30px;
-
-
+  background-color:#CCFFFF;
 }
 h1 {
   text-align: center;
@@ -31,6 +31,11 @@ h1 {
   width:100%;
   margin:0;
   padding:20px;
+}
+header h2 {
+  margin-top:0;
+  padding-top:10px;
+
 }
 header h3 {
   color: #D3D3D3;
@@ -53,10 +58,15 @@ select {
   width: 100%;
   background-color: #e8eeef;
   color: #8a97a0;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
 }
 
+input:hover, textarea:hover, select:hover {
+  padding:30px;
+  transition: padding 2s ease-in;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 label {
   padding-bottom:30px;
 }
@@ -94,7 +104,7 @@ input::placeholder {
   }
   button {
     width:100%;
-    background-color:turquoise;
+    background-color:#00FFFF;
     height:auto;
     padding:20px 20px;
     box-shadow:none;
@@ -112,6 +122,7 @@ input::placeholder {
   input:focus, textarea:focus {
       background-color: lightblue;
       border: 1px solid navy;
+      transition: all 2s ease-in;
   }
 
 
@@ -124,7 +135,7 @@ input::placeholder {
   hr,
   form {
   max-width:768px;
-  margin:10px auto;
+  margin:0 auto;
 
 
   }
@@ -151,6 +162,9 @@ input::placeholder {
   header h1 {
     width:100%;
   }
+  header {
+  margin-bottom:10px;
+    }
   .newsh4,
   .box {
     width:50%;
