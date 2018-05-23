@@ -34,14 +34,13 @@ h1 {
 }
 header h2 {
   margin-top:0;
-  padding-top:10px;
+  padding-top:30px;
 
 }
 header h3 {
   color: #D3D3D3;
   margin-bottom: 10px;
 }
-
 
 input[type="text"],
 input[type="email"],
@@ -61,6 +60,10 @@ select {
   box-shadow: 0 3px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
 }
+textarea{
+  min-height:100px;
+}
+
 
 input:hover, textarea:hover, select:hover {
   padding:30px;
@@ -70,11 +73,14 @@ input:hover, textarea:hover, select:hover {
 label {
   padding-bottom:30px;
 }
-label h4,
+.newsh4,
 fieldset {
   color: gray;
   border:none;
   margin-top:25px;
+}
+.newsh4 {
+  font-size:1.1em;
 }
 
 legend {
@@ -90,6 +96,7 @@ input::placeholder {
   font-style:italic;
   color: #BEBEBE;
   }
+  
   input[id="zipcode"]{
     width:50%;
     display:block;
@@ -120,9 +127,12 @@ input::placeholder {
     color: lightgray;
   }
   input:focus, textarea:focus {
-      background-color: lightblue;
+      background-color: #CCFFFF;
       border: 1px solid navy;
       transition: all 2s ease-in;
+  }
+  .newsletter {
+    background-color: #CCFFFF;
   }
 
 
@@ -136,8 +146,10 @@ input::placeholder {
   form {
   max-width:768px;
   margin:0 auto;
-
-
+  }
+  .subtitles {
+    padding-top:35px;
+    padding-bottom: 20px;
   }
   header h1{
     width:100%;
@@ -145,6 +157,7 @@ input::placeholder {
   label {
     display:inline-block;
     width:19%;
+    padding-bottom:10px;
 
   }
 
@@ -169,4 +182,5 @@ input::placeholder {
   .box {
     width:50%;
   }
+
 }
